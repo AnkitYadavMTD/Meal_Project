@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Wala </title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/e6f12e5790.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="icon" href="assets/meal.png">
+</head>
+
+<body>
+
+
+    <div class="background-image">
+        <img src="./assets/coding-ninja.jpeg" alt="background-image" />
+    </div>
+
+
+    <div id="navbar">
+        <a href="index.html">
+            <div class="top-logo">
+                <img src="assets/meal.png" alt="" width="27" height="29" class="d-inline-block">
+                Food Wala 
+                <hr />
+            </div>
+        </a>
+       
+
+        <div class="side-drawer">
+
+            <div id="toggle-sidebar">
+                <i class="fa-solid fa-heart" style="color: #eb2828;"></i>
+                <span id="total-counter">0</span>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div id="main">
+
+        <div id="sidebar">
+            <div class="top_gap"></div>
+            <hr />
+            <div class="title small">
+                Favorite
+            </div>
+            <hr />
+            <div id="fav">
+                <div class="fav-item nothing"> <h1> 
+                    Nothing To Show.....</h1> </div>
+                <div class="fav-item">
+
+              
+                    <div class="fav-item-photo">
+                        <img src="https://www.themealdb.com/images/ingredients/Lime.png" alt="">
+                    </div>
+                    <div class="fav-item-details">
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div id="flex-box">
+
+
+
+            <div class="container">
+
+                <div class="header">
+                    <div class="title">
+                        What About Today
+                    </div>
+                </div>
+                <div class="" id="search-bar">
+                    <div class="icon">
+                        <i class="fa-solid fa-search "></i>
+                    </div>
+                    <div class="new-search-input">
+                        <form onkeyup="showMealList()">
+                            <input id="search-input" type="text" placeholder="Get your meal details" />
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+          
+
+            <div id="cards-holder" class="">
+
+
+                
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
