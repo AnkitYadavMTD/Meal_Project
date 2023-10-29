@@ -20,7 +20,7 @@ These instructions will get you a copy of the project up and running on your loc
 - A code editor (e.g. VS Code, Atom) 
 ## Demo
 
-Check out the live demo of the application at https://imsahadeb.github.io/The-Meal-App-Coding-Ninjas/
+https://ankityadavmtd.github.io/Meal_Project.github.io/
 
 ## Authors
 
