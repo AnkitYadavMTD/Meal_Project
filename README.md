@@ -17,8 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 - A web browser (e.g. Google Chrome, Firefox, Safari)
 - An internet connection
-- A code editor (e.g. VS Code, Atom)
-- 
+- A code editor (e.g. VS Code, Atom) 
 ## Demo
 
 Check out the live demo of the application at https://imsahadeb.github.io/The-Meal-App-Coding-Ninjas/
